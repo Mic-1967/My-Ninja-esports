@@ -1,0 +1,30 @@
+<style>
+    /* Class for the image hover effect */
+    .hover-effect {
+        width: 200px;
+        height: 200px;
+        background-color: lightseagreen);
+        transition: transform 0.3s, background-color 0.3s; /* Smooth transition */
+    }
+    
+    /* Scaling effect when hovering over the image */
+    .hover-effect:hover {
+        transform: scale(1.2); /* Enlarges the image */
+        background-color: lightcoral; /* Changes background color */
+    }
+
+    /* Styling the h1, h2, h3, and h4 headings */
+    h1 {
+        font-size: 3rem;
+        color: #007bff; /* Primary Bootstrap color */
+    }
+
+    h2, h3, h4 {
+        margin-top: 1.5rem;
+    }
+
+    /* Ensuring buttons have enough margin */
+    .btn {
+        margin-top: 20px;
+    }
+</style>
