@@ -1,36 +1,63 @@
-logo {
- max-width: 100%;
- height: auto;
+body {
+    margin: 0;
+    Font-family: Arial, Sans-serif;
+    background: #f9f9f9;
 }
     
-<style>
-    /* Class for the image hover effect */
-    .hover-effect {
-        width: 200px;
-        height: 200px;
-        background-color: lightseagreen);
-        transition: transform 0.3s, background-color 0.3s; /* Smooth transition */
-    }
+header, main, footer {
+    max-width: 1000px;
+    margin: auto;
+    padding:1em;
+
     
-    /* Scaling effect when hovering over the image */
-    .hover-effect:hover {
-        transform: scale(1.2); /* Enlarges the image */
-        background-color: lightcoral; /* Changes background color */
-    }
+nav ul {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 1em;
+     list-style: none;
+     padding: 0;
+}     
+ 
+ nav ul li a {
+     color:#1121d4
+     text-decoration: none;
+     font-weight: bold;
+}
+  
+ table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-bottom: 2em;
+}
 
-    /* Styling the h1, h2, h3, and h4 headings */
-    h1 {
-        font-size: 3rem;
-        color: #007bff; /* Primary Bootstrap color */
-    }
+ th, td {
+     border: 1px solid #ddd;
+     padding: 0.5em;
+     text-align: left;
+}
+   
+img {
+     max-width: 100%;
+     height: auto;
+     display: block;
+     margin: 1em 0;
+}
 
-    h2, h3, h4 {
-        margin-top: 1.5rem;
+ @media (max-width: 700px) {
+    header, main, footer {
+        padding: 0.5em;
     }
-
-    /* Ensuring buttons have enough margin */
-    .btn {
-        margin-top: 20px;
+    table, th, td {
+        font-size: 0.9em;
     }
+    nav ul
+        flex-direction: collum;
+        gap: 0.5em;
+    }
+   
+ 
+  
+  
+     
 
-</style>
+
